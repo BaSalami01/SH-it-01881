@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+<!--Google Font-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+</head>
+
+<body>
+    <section>
+      <div class="backgrd">
+        <img class="topCircle" src="./images/bg-pattern-top.svg" alt="">
+        <img class="botCircle" src="./images/bg-pattern-bottom.svg"  alt="">
+      </div>
+
+      <div class="card">
+        <div id="top">
+            <img src="./images/image-victor.jpg" alt="Image of a man.">
+        </div>
+
+        <div id="words">
+          <div class="name-age">
+            <h3><span class="bold">Victor Crest</span> 26</h3>
+          </div>
+          
+            <p id="area">London</p>
+
+          <div class="stats">
+<!--I created the div "box" classes so that the contents won't move with the div "stats" class as I style the css.-->
+              <div class="box">
+                <p id="stat"><span class="bold">80K</span> <br> Followers</p>
+              </div>
+
+              <div class="box">
+                <p id="stat"><span class="bold">803K</span> <br> Likes</p>
+              </div>
+
+              <div class="box">
+                <p id="stat"><span class="bold">1.4K</span> <br> Photos</p>
+              </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">basalami</a>.
+  </div>
+</body>
+</html>

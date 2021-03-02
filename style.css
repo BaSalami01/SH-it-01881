@@ -1,0 +1,134 @@
+/* Universal property */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* added font */
+body {
+    font-family: Kumbh Sans, sans-serif;
+}
+
+section {
+    background: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* background circles */
+.backgrd .topCircle,
+.backgrd .botCircle {
+    position: absolute;
+    border: 0;
+}
+
+/* not working */
+/* @media screen and (max-width: 375px) {
+    .backgrd .topCircle {
+        top: -115%;
+        left: -184%;
+    }
+} */
+
+.backgrd .topCircle {
+    top: -122%;
+    left: -28%;
+}
+
+/* not working */
+/* @media screen and (max-width: 375px) {
+    .backgrd .botCircle {
+        bottom: -115%;
+        right: -177%;
+    }
+} */
+
+.backgrd .botCircle {
+    bottom: -111%;
+    right: -21%;
+}
+
+/* define the shape of the card */
+.card {
+    background: #fff;
+    height: 50vh;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+img {
+    border-radius: 50%;
+    border: #fff 4px solid;
+    margin-top: 15%;
+}
+
+#top {
+    background-image: url(./images/bg-pattern-card.svg);
+    background-size: cover;
+    height: 16vh;
+}
+
+/* for whitespace */
+#words {
+    margin-top: 25%;
+}
+
+h3,p {
+    margin-bottom: 8%;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    font-size: 14px;
+}
+
+.bold{
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+}
+
+h3 .bold {
+    padding-right: 8px;
+}
+
+p .bold {
+    text-align: center;
+}
+
+/* for whitespace */
+#area {
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+/* for horizontal line */
+.stats {
+    border-top: 1px hsl(0, 0%, 59%) solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* for whitespace */
+#stat {
+    margin-top: 20px;
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+}
